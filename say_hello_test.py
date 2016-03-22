@@ -10,7 +10,7 @@ class TestMorning(unittest.TestCase):
         self.assertEqual(say_hello("Ricardo"), "Hello Ricardo!")
         self.assertEqual(say_hello("Larry"), "Hello Larry!")
 
-    def def test_say_hello_with_args(self):
+    def test_say_hello_with_args(self):
         self.assertEqual(say_hello(), "Hello Python Programmer!")
 
 
