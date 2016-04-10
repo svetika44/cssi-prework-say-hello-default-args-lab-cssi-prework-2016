@@ -16,15 +16,13 @@ say_hello("Gabriela")
 Hello Gabriela!
 ```
 
-There is one more thing this method should do: if you call on this method and forget to give it the name of a person, it should just say, `"Hello Ruby Programmer!"`. Use a default argument to accomplish this!
+There is one more thing this method should do: if you call on this method and forget to give it the name of a person, it should just say, `"Hello Python Programmer!"`. Use a default argument to accomplish this!
 
 ## Steps
 
 1. Run `learn` to see where you stand. 
-  * You probably got two NoMethodErrors. This means the test was looking for a method called `say_hello` but couldn't find it.
-2. Define the method in `say_hello.rb`
-  * Run `learn` again. Are you getting a different error? If you haven't seen this error, guess what it's trying to tell you then Google it with the word "ruby".
+  * You probably got the error `global name 'say_hello' is not defined`. This means the test was looking for a method called `say_hello` but couldn't find it.
+2. Define the method in `say_hello.py`
+  * Run `learn` again. Are you getting a different error? If you haven't seen this error, guess what it's trying to tell you then Google it with the word "python".
 3. Get all the tests to pass!
 4. Once all of the tests are passing, use `learn submit` to submit your lab. Or alternatively, you can stage and commit your code; push it up to your fork; and submit a pull request.
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/say-hello-ruby' title='Say Hello'>Say Hello</a> on Learn.co and start learning to code for free.</p>
